@@ -19,7 +19,7 @@
         "id": "c1d8f3149c1b7abd",
         "type": "tab",
         "label": "Collection",
-        "disabled": true,
+        "disabled": false,
         "info": "",
         "env": []
     },
@@ -1210,63 +1210,6 @@
         "groupType": "default"
     },
     {
-        "id": "5238fd08d2749799",
-        "type": "ui-theme",
-        "name": "Cintus Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#ffffff",
-            "bgPage": "#ffffff",
-            "groupBg": "#ffffff",
-            "groupOutline": "#ffffff"
-        },
-        "sizes": {
-            "pagePadding": "0px",
-            "groupGap": "2px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "2px",
-            "density": "default"
-        }
-    },
-    {
-        "id": "5075a7d8e4947586",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px",
-            "density": "default"
-        }
-    },
-    {
-        "id": "0437f33532f8e93c",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#1984c5",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "0px",
-            "groupGap": "5px",
-            "groupBorderRadius": "2px",
-            "widgetGap": "0px"
-        }
-    },
-    {
         "id": "c2aa8350e99db60d",
         "type": "MySQLdatabase",
         "name": "",
@@ -1277,19 +1220,9 @@
         "charset": "UTF8"
     },
     {
-        "id": "e524b0aa03dfb245",
-        "type": "MySQLdatabase",
-        "name": "Data",
-        "host": "127.0.0.1",
-        "port": "3306",
-        "db": "sitedata",
-        "tz": "",
-        "charset": "UTF8"
-    },
-    {
         "id": "1fab5fb25c619e73",
         "type": "sqlitedb",
-        "db": "/scaledata",
+        "db": "C:/ProgramData/ScaleFlow/.node-red/projects/Main/files/scaledata",
         "mode": "RWC"
     },
     {
@@ -3990,7 +3923,7 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 970,
+        "x": 1140,
         "y": 600,
         "wires": [
             []
@@ -4004,7 +3937,7 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 970,
+        "x": 1140,
         "y": 780,
         "wires": [
             []
